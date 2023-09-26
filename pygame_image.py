@@ -39,7 +39,7 @@ def main():
         screen.blit(bg_img, [-x , 0])
         #screen.blit(bg_img, [1600 - x, 0])
         screen.blit(bg_img2, [1600 -x, 0])
-        screen.blit(bg_img, [3200, 0])
+        screen.blit(bg_img, [3200 - x, 0])
         screen.blit(kk_imgs[tmr%32], [300, 200])
         pg.display.update()
         tmr += 1        
